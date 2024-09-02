@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>소혜진_포트폴리오</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/fullpage.js/dist/fullpage.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/fullpage.js/dist/fullpage.min.css"/>
+</head>
+
+<body>
+    <div class="wrap" id="fullpage">
+        <section class="section"><img src="img1/a1.jpg" alt="포트폴리오 표지"></section>
+        <section class="section"><img src="img1/a2.jpg" alt="포트폴리오 목차"></section>
+        <section class="section"><img src="img1/a3.jpg" alt="포트폴리오 간지"></section>
+        <section class="section"><img src="img1/a4.jpg" alt="포트폴리오"></section>
+        <section class="section"><img src="img1/a5.jpg" alt="포트폴리오"></section>
+        <section class="section"><img src="img2/a6.jpg" alt="포트폴리오"></section>
+        <section class="section"><img src="img2/a7.jpg" alt="포트폴리오"></section>
+        <section class="section"><img src="img2/a8.jpg" alt="포트폴리오"></section>
+        <section class="section"><img src="img2/a9.jpg" alt="포트폴리오"></section>
+        <section class="section"><img src="img2/a10.jpg" alt="포트폴리오"></section>
+        <section class="section"><img src="img3/a11.jpg" alt="포트폴리오"></section>
+        <section class="section"><img src="img3/a12.jpg" alt="포트폴리오"></section>
+        <section class="section"><img src="img3/a13.jpg" alt="포트폴리오"></section>
+        <section class="section"><img src="img3/a14.jpg" alt="포트폴리오"></section>
+        <section class="section"><img src="img3/a15.jpg" alt="포트폴리오"></section>
+        <section class="section"><img src="img4/a16.jpg" alt="포트폴리오"></section>
+        <section class="section"><img src="img4/a17.jpg" alt="포트폴리오"></section>
+        <section class="section"><img src="img4/a18.jpg" alt="포트폴리오"></section>
+        <section class="section"><img src="img4/a19.jpg" alt="포트폴리오"></section>
+        <section class="section"><img src="img4/a20.jpg" alt="포트폴리오"></section>
+        <section class="section"><img src="img5/a21.jpg" alt="포트폴리오"></section>
+        <section class="section"><img src="img5/a22.jpg" alt="포트폴리오"></section>
+        <section class="section"><img src="img5/a23.jpg" alt="포트폴리오"></section>
+        <section class="section"><img src="img5/a24.jpg" alt="포트폴리오"></section>
+        <section class="section"><img src="img5/a25.jpg" alt="포트폴리오"></section>
+        <section class="section"><img src="img6/a26.jpg" alt="포트폴리오"></section>
+        <section class="section"><img src="img6/a27.jpg" alt="포트폴리오"></section>
+        <section class="section"><img src="img6/a28.jpg" alt="포트폴리오"></section>
+        <section class="section"><img src="img6/a29.jpg" alt="포트폴리오"></section>
+        <section class="section"><a href="https://hjdesign.github.io/hanbat/"><img src="img6/a30.jpg" alt="포트폴리오"></a></section>
+        <section class="section"><a href="https://hjdesign.github.io/hanbat/"><img src="img7/a31.jpg" alt="포트폴리오"></a></section>
+        <section class="section"><img src="img7/a32.jpg" alt="포트폴리오"></section>
+        <section class="section"><a href="https://hjdesign.github.io/hanbat1/"><img src="img7/a33.jpg" alt="포트폴리오"></a></section>
+        <section class="section"><img src="img7/a34.jpg" alt="포트폴리오"></section>
+        <section class="section"><img src="img7/a35.jpg" alt="포트폴리오"></section>
+
+    </div>
+
+    <script> new fullpage('#fullpage', {
+            navigation: true,
+            responsiveWidth: 700,
+            anchors: ['home', 'about-us', 'contact'],
+            parallax: true,
+            onLeave: function (origin, destination, direction) {
+                console.log("Leaving section" + origin.index);
+            },
+        });</script>
+</body>
+
+</html>
